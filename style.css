@@ -71,10 +71,10 @@ h1{
     height: 350px;
     border-radius: 10px;
 }
-article{
+.article{
     padding-left: 10px;
 }
-article i{
+.article i{
     padding-left: 10px;
 }
 #transfer{
@@ -106,4 +106,17 @@ footer h1{
 }
 .social-media{
     margin: 5px;
+}
+/* Upcoming Match */
+.match{
+    border: 1px solid lightgray;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+.match span{
+    margin: 10px;
+    font-weight: 600;
 }
