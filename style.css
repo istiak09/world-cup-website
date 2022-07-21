@@ -13,6 +13,7 @@ h1{
     display: flex;
     justify-content: center;
     height: 600px;
+    width: 1200px;
     background-color: black;
     color: whitesmoke;
     border-radius: 20px;
@@ -158,7 +159,7 @@ footer h1{
         grid-template-columns: (1,1fr);
         padding-left: 50px;
         padding-right: 30px;
-    }
+    }   
     .header-split img{
         width: 400px;
         padding-top: 30px;
@@ -177,7 +178,7 @@ footer h1{
         align-items: center;
         flex-direction: column;
     }
-        /* ------Nav -------*/
+    /* ------Nav -------*/
 
     .nav{
     background-color: white;
@@ -246,4 +247,93 @@ footer h1{
     }
     
 }
+/* Tablet devices*/
+@media screen and (min-width:687px) and (max-width:991px) {
+/* Header*/
+    .header{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 800px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: 50px 100px;
+    }
     
+    .header-split{
+        height: 350px;
+        width: 40%;
+        font-size: -2em;
+        
+    } 
+    .header-split img{
+    width: 377px;
+    }
+    .header-split a{
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+        padding: 10px 20px;
+    }
+    /* blog*/
+    
+    .blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* ------Nav -------*/
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        margin-top: 300px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+    .nav-button{
+        background-color: whitesmoke;
+        width: 100px;
+        margin: 30px;
+        padding: 10px 70px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-button a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+    }
+    #nav-blog{
+            background-color: red;
+            padding: 20px 70px;
+    }
+    #nav-blog a{
+            color: white;
+    }
+    /*------ Main blog----- */
+    .main-blog{
+        height: 2400px;
+        width: 900px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .News{
+        border: 1px solid lightgray;
+        width: 400px;
+        height: 400px;
+        margin-top: 20px ;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+    .News img{
+        width: 100%;
+    }
+}
